@@ -13,7 +13,7 @@ def probability_to_red_green(probability):
     """
     n = probability * 100
     red = int((255. * (100 - n)) / 100.)
-    green = int(255. * n) / 100
+    green = int((255. * n) / 100)
     blue = 0
     return red, green, blue
 
