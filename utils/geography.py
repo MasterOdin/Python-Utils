@@ -18,6 +18,7 @@ def haversine(point1, point2, miles=False):
 
     :param point1: Tuple containing (Latitude, Longtitude) of the first point
     :param point2: Tuple containing (Latitude, Longtitude) of the second point
+    :param miles: Distance should be in miles or kilometers?
     :return: Returns distance in meters between the two points on the Earth
     :rtype: float
     """
